@@ -1,4 +1,4 @@
-package mir.project.jaxrs.test;
+package mir.project.jaxrs.test.paramconverter;
 
 import java.lang.annotation.Annotation;
 import java.lang.reflect.Type;
@@ -7,6 +7,8 @@ import java.util.Calendar;
 import javax.ws.rs.ext.ParamConverter;
 import javax.ws.rs.ext.ParamConverterProvider;
 import javax.ws.rs.ext.Provider;
+
+import mir.project.jaxrs.test.MyDate;
 
 @Provider
 public class MyDateParamConverterProvider implements ParamConverterProvider {
